@@ -1,0 +1,61 @@
+html{
+	background: url(fruits.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 180%
+}
+
+.nav{
+    background: #2874a6; 
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0; 
+}
+
+.nav > li{
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover{
+    color: #aed6f1; 
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+html, body, .container
+{
+    height: 100%; 
+    min-heightfruits
+    text-align: center;
+}
+
+#Sign-Up{ margin-top:150px; 
+    margin-bottom:150px; 
+    margin-right:150px; 
+    margin-left:35%; 
+    padding:9px 35px; 
+    margin-top: 10%;
+} 
+
+#button{ border-radius:10px; 
+    width:100px; 
+    height:40px; 
+    background:#FFFF; 
+
+    font-weight:bold; 
+    font-size:20px; 
+}

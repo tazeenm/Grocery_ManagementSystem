@@ -1,0 +1,313 @@
+html{
+	background: url(fruits.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 180%
+
+}
+
+.nav{
+    background: #2874a6; 
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0; 
+}
+
+.nav > li{
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover{
+    color: #aed6f1; 
+}
+
+/*.fixed-nav-bar-top{
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+*/
+#signup{
+    float: right;
+}
+
+#login{
+    float: right;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+html, body, .container
+{
+    height: 100%; 
+    min-heightfruits
+}
+
+.first {
+    float: left;
+    width: 20%;
+    height: 40%;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+
+.first img{
+    transition: all 2s ease-in-out 0s;
+    -moz-transition: all 2s ease-in-out 0s;
+    -webkit-transition: all 2s ease-in-out 0s;
+    -o-transition: all 2s ease-in-out 0s;
+}
+
+.first:hover{
+    opacity: 0.5;
+}
+
+.first:hover img {
+    transform: scale(0.9) rotateZ(-1deg);
+    -moz-transform: scale(0.9) rotateZ(-1deg);
+    -webkit-transform: scale(0.9) rotateZ(-1deg);
+    -o-transform: scale(0.9) rotateZ(-1deg);
+}
+
+.second{
+    float: left;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
+    margin-left: 2px;
+    padding-top: 10px;
+}
+
+.second img{
+    transition: all 2s ease-in-out 0s;
+    -moz-transition: all 2s ease-in-out 0s;
+    -webkit-transition: all 2s ease-in-out 0s;
+    -o-transition: all 2s ease-in-out 0s;
+}
+
+.second:hover{
+    opacity: 0.6;
+}
+
+.second:hover img {
+    transform: scale(0.9) rotateZ(-1deg);
+    -moz-transform: scale(0.9) rotateZ(-1deg);
+    -webkit-transform: scale(0.9) rotateZ(-1deg);
+    -o-transform: scale(0.9) rotateZ(-1deg);
+}
+
+
+.third{
+    float: right;
+    width: 78%;
+    height: 72%;
+    margin-right: 2px;
+}
+
+.third img{
+    transition: all 2s ease-in-out 0s;
+    -moz-transition: all 2s ease-in-out 0s;
+    -webkit-transition: all 2s ease-in-out 0s;
+    -o-transition: all 2s ease-in-out 0s;
+}
+
+.third:hover{
+    opacity: 0.5;
+}
+
+.third:hover img {
+    transform: scale(0.9) rotateZ(-1deg);
+    -moz-transform: scale(0.9) rotateZ(-1deg);
+    -webkit-transform: scale(0.9) rotateZ(-1deg);
+    -o-transform: scale(0.9) rotateZ(-1deg);
+}
+
+
+.fourth {
+    float: right;
+    width: 40%;
+    height: 20%;
+
+}
+
+.fourth img{
+    transition: all 2s ease-in-out 0s;
+    -moz-transition: all 2s ease-in-out 0s;
+    -webkit-transition: all 2s ease-in-out 0s;
+    -o-transition: all 2s ease-in-out 0s;
+}
+
+.fourth:hover{
+    opacity: 0.5;
+}
+
+.fourth:hover img {
+    transform: scale(0.9) rotateZ(-1deg);
+    -moz-transform: scale(0.9) rotateZ(-1deg);
+    -webkit-transform: scale(0.9) rotateZ(-1deg);
+    -o-transform: scale(0.9) rotateZ(-1deg);
+}
+
+.last{
+    float: right;
+    width: 37%;
+    height: 30%;
+    margin-right: 20px;
+}
+
+.last img{
+    transition: all 2s ease-in-out 0s;
+    -moz-transition: all 2s ease-in-out 0s;
+    -webkit-transition: all 2s ease-in-out 0s;
+    -o-transition: all 2s ease-in-out 0s;
+}
+
+.last:hover{
+    opacity: 0.5;
+}
+
+.last:hover img {
+    transform: scale(0.9) rotateZ(-1deg);
+    -moz-transform: scale(0.9) rotateZ(-1deg);
+    -webkit-transform: scale(0.9) rotateZ(-1deg);
+    -o-transform: scale(0.9) rotateZ(-1deg);
+}
+
+/*Search*/
+.input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}
+
+#searchform{
+    margin-left: 750px;
+}
+
+
+/*Slider*/
+.slider{
+    overflow: hidden;
+    height: 550px;
+    margin-bottom: 50px;
+}
+
+.slider figure div{
+    width: 20%;
+    float: left;
+}
+
+.slider figure img{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 50s slidy infinite;
+}
+
+@keyframes slidy{
+    0%{
+        left: 0%
+    }
+
+    10%{
+        left: 0%;
+    }
+
+    12%{
+        left: -100%;
+    }
+
+    22%{
+        left: -100%;
+    }
+
+    24%{
+        left: -200%;
+    }
+
+    34%{
+        left: -200%;
+    }
+
+    36%{
+        left: -300%;
+    }
+
+    46%{
+        left: -300%;
+    }
+
+    48%{
+        left: -400%;
+    }
+
+    58%{
+        left: -400%;
+    }
+
+    60%{
+        left: -300%;
+    }
+
+    70%{
+        left: -300%;
+    }
+
+    72%{
+        left: -200%;
+    }
+
+    82%{
+        left: -200%;
+    }
+
+    84%{
+        left: -100%;
+    }
+
+    94%{
+        left: -100%;
+    }
+
+    96%{
+        left: 0%;
+    }
+
+    100%{
+        left: 0%;
+    }
+}

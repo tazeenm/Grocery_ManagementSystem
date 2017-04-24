@@ -1,0 +1,83 @@
+html{
+	background: url(fruits.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 180%
+}
+
+.nav{
+    background: #2874a6; 
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0; 
+    margin-bottom: 100px;
+}
+
+.nav > li{
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover{
+    color: #aed6f1; 
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 620px;
+    height: auto;
+    margin-left:580px;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    /*z-index: 0;*/
+    margin: 2px 2px 2px -2px;
+    transition: all .15s ease-in-out;
+}
+
+.box:hover {
+    background: #9CC;
+    /*z-index: 100;*/
+    transform: scale(1.2,1.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+}
+
+/*Search*/
+.input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}
+
+#searchform{
+    margin-left: 750px;
+}
